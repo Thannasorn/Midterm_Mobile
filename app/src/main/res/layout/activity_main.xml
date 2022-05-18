@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/logo_it_s" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="112dp"
+            android:layout_weight="1"
+            android:background="#FFDA6C"
+            android:text="Midtrem 6206021611125"
+            android:textAlignment="center"
+            android:textColor="#0000FF"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCalGpa"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@android:drawable/btn_star"
+        android:drawableTint="#FFFFFF"
+        android:text="App Calculate GPA"
+        android:textAlignment="textEnd"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnCalText"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@android:drawable/btn_star"
+        android:drawableTint="#FFFFFF"
+        android:text="App Calculate Tax"
+        android:textAlignment="textEnd"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSlide"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@android:drawable/btn_star"
+        android:drawableTint="#FFFFFF"
+        android:text="App Slide Show"
+        android:textAlignment="textEnd"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@android:drawable/btn_star"
+        android:drawableTint="#FFFFFF"
+        android:text="About"
+        android:textAlignment="textEnd"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnQuit"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@android:drawable/btn_star"
+        android:drawableTint="#FFFFFF"
+        android:text="Quit"
+        android:textAlignment="textEnd"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>
